@@ -1,0 +1,203 @@
+*{
+    margin: 0px;
+
+
+}
+body{
+    background-color: #211951;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Track */
+   
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #05dee9;
+    border-radius: 25px; 
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; }
+section{
+    height: 100vh;
+}
+
+header {
+    position: fixed;
+    top: 100;
+    width: 100%;
+    transition: background-color 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scrolled {
+    background: #836FFF;
+    background: linear-gradient(180deg, #836FFF 5%, rgba(0,245,255,0) 100%);
+}
+
+h4{
+    color: aliceblue;
+}
+
+nav {
+    width: 100%;
+    height: 100%;
+    transition: background-color 0.3s;
+    background-color: #836FFF;
+    text-align: center;
+    display: flex;
+    justify-content: space-between; /* Align items on both ends */
+    align-items: center; /* Vertically center items */
+    padding: 0 190px; /* Tambahkan padding di kedua sisi */
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 12px;
+}
+
+nav ul li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(23, 23, 23);
+}
+
+/* Mengubah gaya tautan yang sedang aktif */
+
+.navbar ul li a.active {
+    text-decoration: underline;
+    transition: ease-in-out 1s;
+}
+
+
+.main1{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background-color: #211951;
+}
+.left{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+.artis{
+    width: 60%;
+}
+.right{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.logo{
+    transition: transform 0.3s ease;
+    width: 35%;
+    display: block;
+    margin: auto; 
+    border-radius: 16px;
+}
+
+h1{
+    color: #F0F3FF;
+    font-size: 36px;
+}
+h2{
+    margin: 0px;
+    padding: 0px;
+    color: #F0F3FF;
+    font-size: 82px;
+}
+h3{
+    color: #F0F3FF;
+    font-size: 36px;
+    padding-bottom: 32px;
+}
+
+
+
+.main2{
+    
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.left2{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+.right2{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    width: 50%;
+    height: 100%;
+}
+.artis2{
+    width: 60%;
+}
+p{
+    color: #f0f3ff85;
+    padding-bottom: 32px;
+}
+.Contact-me{
+    border-radius: 16px;
+    background-color: #15F5BA;
+    padding: 10px;
+    text-decoration: none;
+    color: #F0F3FF;
+    font-size: 24px;
+}
+.Contact-me:hover{
+    background-color: #13745a
+
+}
+
+
+
+.main3{
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    height: 80%;
+    width: 80%;
+    background: rgba(255, 255, 255, 0.42);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.9px);
+    -webkit-backdrop-filter: blur(6.9px);
+    border: 1px solid rgba(255, 255, 255, 0.87);
+}
+
